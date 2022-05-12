@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script>
+        lightbox.option({
+            'showImageNumberLabel': false,
+            'wrapAround': true
+        })
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,11 +17,13 @@
 </head>
 <body>
     <div class="gallery">
-        <a href="assets/images/NFTMarketplace.jpg"><img src="assets/images/NFTMarketplace.jpg" style="width: 400px"></a>
-        <a href="assets/images/Oracles.jpg"><img src="assets/images/Oracles.jpg" style="width: 400px"></a>
-        <a href="assets/images/PriceFeed.jpg"><img src="assets/images/PriceFeed.jpg" style="width: 400px"></a>
-        <a href="assets/images/Footer.jpg"><img src="assets/images/Footer.jpg" style="width: 400px"></a>
-        <a href="assets/images/SideMenu.jpg"><img src="assets/images/SideMenu.jpg" style="width: 400px"></a>        
+        <a href="assets/images/MainNFT.jpg" data-lightbox="mygallery" data-title="NFT Marketplace, redesigned NFT cards, Top Collection Cards, Headers, and grid for layout."><img src="assets/images/MainNFT.jpg"></a>
+        <a href="assets/images/NFTMarketplace.jpg" data-lightbox="mygallery" data-title="NFT Marketplace Explore Section, built NFT cards and grid for layout."><img src="assets/images/NFTMarketplace.jpg"></a>
+        <a href="assets/images/Oracles.jpg" data-lightbox="mygallery" data-title="Oracles Page, redesigned price cards, and implemented skeleton animations on loading"><img src="assets/images/Oracles.jpg"></a>
+        <a href="assets/images/PriceFeed.jpg" data-lightbox="mygallery" data-title="Price Feed, created page header, and table items with generic table in design system."><img src="assets/images/PriceFeed.jpg"></a>
+        <a href="assets/images/FooterSizes.jpg" data-lightbox="mygallery" data-title="Footer, redesigned the footer, responsive layout based on device."><img src="assets/images/Footer.jpg"></a>
+        <a href="assets/images/SideMenu.jpg" data-lightbox="mygallery" data-title="Side Menu, redesigned this drop down, adding theme switch, hover effects, and social SVG icons."><img src="assets/images/SideMenu.jpg"></a>        
+        <a href="assets/images/NFTMint.jpg" data-lightbox="mygallery" data-title="Mint NFT Graphic, used SVGs to create responsive image with adjusting header and button based on size of asset. "><img src="assets/images/MintNFTArt.jpg"></a>        
     </div>
 </body>
 </html>

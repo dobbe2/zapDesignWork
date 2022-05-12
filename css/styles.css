@@ -6,9 +6,14 @@
     transition: 1s;
     padding: 15px;
     width: 200px;
+    height: 200px;
 }
 
 .gallery img:hover {
     /* filter: grayscale(100%); */
     transform: scale(1.1);
+}
+
+.lb-data .lb-caption {
+    font-size: 18px;
 }
